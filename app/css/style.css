@@ -942,12 +942,10 @@ header {
           line-height: 18px;
           font-weight: 400;
           color: #ffffff;
-          padding-left: 25px; }
+          padding-left: 25px;
+          z-index: 99; }
         .seventh_wrap .container .form form .inputs .input_text:not(:placeholder-shown) + span {
           display: none; }
-        .seventh_wrap .container .form form .inputs ::-moz-placeholder:after {
-          content: '*';
-          color: red; }
       .seventh_wrap .container .form form .btm_form {
         position: relative;
         display: flex;

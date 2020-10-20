@@ -1159,13 +1159,10 @@
             font-weight: 400;
             color: #ffffff;
             padding-left: 25px;
+            z-index: 99;
           }
           .input_text:not(:placeholder-shown) + span{
             display: none;
-          }
-          ::-moz-placeholder:after{
-            content: '*';
-            color:red;
           }
         }
         .btm_form{
